@@ -2,7 +2,7 @@
 Documentation of my independent growth beyond the university syllabus.
 
 ## DevOps & Tools
-* **Git/GitHub**: Moving my local D: drive workflow to a professional cloud-based repository.
+* **Git/GitHub**: Moving my local drive workflow to a professional cloud-based repository.
 * **Workflow**: Learning to use Git Bash and VS Code as a unified development environment.
 
 ## Language & Global Skills
