@@ -1,1 +1,22 @@
-this txt has been created for testing git checkout cmd, branching and merging.
+Git Practice: Branching and Reset 
+Workflow 
+This file was created to practice version control maneuvers on the 'devops' branch. 
+Commands Practiced: 
+1. Branch Creation: git checkout -b devops 
+○ Created a parallel environment to test changes. 
+2. Commit Isolation: 
+○ Created this file on the 'devops' branch. 
+○ Verified it "disappeared" when switching back to 'main' (git checkout main). 
+3. Merging: git merge devops 
+○ Brought the changes from the parallel branch into the main timeline. 
+4. Soft Reset: git reset --soft HEAD~1 
+○ Undid the merge/commit in the history. 
+○ Key Lesson: The file stayed in the folder because '--soft' doesn't delete physical 
+work, it only resets the 'HEAD' pointer. 
+5. Path Navigation: 
+○ Practiced moving files between directories using mv ../cmdprac.txt .. 
+○ Learned the importance of the '.' (current directory) and '..' (parent directory) 
+symbols. 
+DevOps Concept: 
+"Rollback Capability" - The ability to undo a merge or a commit instantly using 'reset' if a 
+deployment fails.
